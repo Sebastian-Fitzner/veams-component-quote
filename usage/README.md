@@ -7,7 +7,7 @@ This component is based on the blueprint of Veams-Components.
 ### Include: Page
 
 ``` hbs
-{{! @INSERT :: START @id: quote, @tag: component }}
+{{! @INSERT :: START @id: quote, @tag: component-partial }}
 {{#with quote-bp.simple}}
 	{{> c-quote }}
 {{/with}}
@@ -21,7 +21,7 @@ This component is based on the blueprint of Veams-Components.
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @id: scss-import, @tag: component
+// @INSERT :: START @id: scss-import
 @import "components/_c-quote";
 // @INSERT :: END
 ```
