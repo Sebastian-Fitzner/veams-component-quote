@@ -1,3 +1,6 @@
+### v3.0.0
+- Update source code to support Veams 5 framework
+
 ### v2.0.0
 - Refactor data structure of all components
 - Add all important notes to readme
