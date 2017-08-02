@@ -15,11 +15,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import
-@import "components/_c-quote";
-// @INSERT :: END
-
 // @INSERT :: START @tag: scss-self-contained-import //
-@import "../templating/partials/components/quote/scss/_c-quote";
+@import "../components/quote/scss/_c-quote";
 // @INSERT :: END //
 ```
