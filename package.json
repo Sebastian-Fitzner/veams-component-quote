@@ -1,0 +1,18 @@
+{
+	"name": "veams-component-quote",
+	"version": "4.0.0",
+	"description": "A simple quote component.",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Veams/veams-component-quote.git"
+	},
+	"keywords": [
+		"veams"
+	],
+	"author": "Sebastian Fitzner",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Veams/veams-component-quote/issues"
+	},
+	"homepage": "https://github.com/Veams/veams-component-quote#readme"
+}
