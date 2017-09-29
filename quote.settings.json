@@ -1,0 +1,9 @@
+{
+	"type": "component",
+	"displayName": "c-quote",
+	"contextData": "quote-bp",
+	"layout": "lyt-docs",
+	"scssFiles": [
+		"_c-quote.scss"
+	]
+}

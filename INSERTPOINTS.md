@@ -1,3 +1,5 @@
+## Usage
+
 ### Include: Page
 
 ``` hbs
@@ -10,12 +12,4 @@
 	{{> c-quote }}
 {{/with}}
 {{! @INSERT :: END }}
-```
-
-### Include: SCSS
-
-``` scss
-// @INSERT :: START @tag: scss-self-contained-import //
-@import "../components/quote/scss/_c-quote";
-// @INSERT :: END //
 ```
