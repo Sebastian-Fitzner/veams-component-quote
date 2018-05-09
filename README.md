@@ -1,5 +1,5 @@
 <p align="right">
-<a href="https://badge.fury.io/js/veams-component-quote"><img src="https://badge.fury.io/js/veams-component-quote.svg" alt="npm version" height="18"></a>
+<a href="https://badge.fury.io/js/@veams/component-quote"><img src="https://badge.fury.io/js/@veams/component-quote.svg" alt="npm version" height="18"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
 
@@ -18,16 +18,29 @@ Content inside a `<blockquote>` must be quoted from another source, whose addres
 
 ### Installation with Veams
 
-`veams install vc quote`
+```bash
+veams install component quote
+```
+``` bash 
+veams -i c quote
+```
 
 -----------
 
 ## Fields
 
-### Settings
-- settings.quoteContextClass {`String`} [default] - _Context class of component._
-- settings.quoteClasses {`String`} - _Modifier classes for component._
+### `quote.hbs`
 
-### Content
-- content.quoteContent {`String`} - _Content text in blockquote._
-- content.quoteAuthor {`String`} - _Author of quote._
+#### Settings
+
+| Parameter | Type | Value | Description |
+|:--- | :---: |:---: | :--- |
+| settings.quoteContextClass | String | `default` | Context class of component. |
+| settings.quoteClasses | String | | Modifier classes for component. |
+
+#### Content
+
+| Parameter | Type | Description |
+|:--- | :---: | :--- |
+| content.quoteContent | String | Content text in blockquote. |
+| content.quoteAuthor | String | Author of quote. |

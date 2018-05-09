@@ -8,7 +8,7 @@
 	{{> quote }}
 {{/with}}
 
-{{#with quote-bp.variations.full}}
+{{#with quote.variations.full}}
 	{{> quote }}
 {{/with}}
 {{! @INSERT :: END }}

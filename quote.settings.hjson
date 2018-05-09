@@ -1,0 +1,9 @@
+{
+	"type": "component",
+	"contextData": "quote",
+	"displayName": "quote",
+	"layout": "lyt-docs",
+	"scssFiles": [
+		"_quote.scss"
+	]
+}

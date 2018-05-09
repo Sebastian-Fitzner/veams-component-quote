@@ -1,8 +1,0 @@
-{
-	"type": "component",
-	"contextData": "quote-bp",
-	"layout": "lyt-docs",
-	"scssFiles": [
-		"styles/_quote.scss"
-	]
-}

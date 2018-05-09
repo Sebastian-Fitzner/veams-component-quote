@@ -2,8 +2,7 @@
 	"variations": {
 		"simple": {
 			"docs": {
-				"variationName": "Simple quote",
-				"sectionCenter": true
+				"variationName": "Simple quote"
 			},
 			"settings": {
 				"quoteContextClass": false
@@ -14,7 +13,7 @@
 		},
 		"full": {
 			"docs": {
-				"variationName": "Full quote",
+				"variationName": "Full quote with (reference for the quote)",
 				"sectionCenter": true
 			},
 			"settings": {
